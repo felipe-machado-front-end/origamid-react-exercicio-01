@@ -1,7 +1,9 @@
+import RenderListClients from "./components/RenderListClients";
+
 function App() {
   return (
     <div>
-      <h1 className="bg-red-500">OLA MUNDO</h1>
+      <RenderListClients />
     </div>
   );
 }
